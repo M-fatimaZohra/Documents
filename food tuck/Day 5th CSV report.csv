@@ -1,0 +1,10 @@
+Test Case ID:,Test Case Description:,Test Steps:,Expected Result:,Actual Result:,Status: ,Severity Level:,Assigned To:,Remarks
+TC 0001,Product Listing Appeariance,go to /Shop  > View List,list must appear on vercel,only appering in local host and not appearing in vercel,Failed,LOW,N/A,This is not code issue but Unkown Api issue
+TC 0002,API perfomance,go to tunder client > test food and chef APIs,success:200,success:200,passed,Medium,N/A,"perfect, not problems with APIs"
+TC 0003,Responsiveness,go to inspect mode on google > change dimensions ,look graceful,look graceful,passed,Medium,N/A,look graceful
+TC 0004,Check box functionallity,(in local host mode due to issue TC 0001) use check box,working properly,working properly,passed,Medium,N/A,working perfectly
+TC 0005,Add to cart,Go to add to cart section,Just UI with woking rating and QTY function,Just UI with woking rating and QTY function,passed/skipped,Medium,N/A,only dummy UI not working ADD TO CART
+TC 0006,Search bar in /Shop ,got to /Shop >use list,working properly,not working,Failed/skipped,Medium,N/A,did my best at functionallity but don’t know ho to connect them to make it functional
+TC 0007,pagination,skipped,work like page slider,skipped,skipped,N/A,N/A,stuck and stop
+TC 0008,Dynamic route,go to Shop/:[id]  > inspect route,Appear according to Id,Appear according to Id,success,medium,N/A,working perfectly
+TC 0009,Related items,in /:[id] route check for related item,Appear according to Category,Appear according to Category,success,Medium,N/A,working as expected
