@@ -1,99 +1,87 @@
-Q-Commerce Food Website - Food Tuck
+# Q-Commerce Food Website - Food Tuck
 
-Project Overview
+## Project Overview
 
 A Q-commerce food website that allows users to browse and order food. The project is currently under construction due to some glitches. It includes features such as food listings, dynamic interactions, and API integration.
 
-Current Status
+## Current Status
 
-Under Construction: The project is experiencing the following issues:
+- **Under Construction**: The project is experiencing the following issues:
+  - `/Shop` route: Food list is not appearing on Vercel or network address, but it works on `localhost:3000`.
+  - In /Shop/:[id], some features like color-changing ratings, counters, and alert buttons are not functioning due to unknown glitch
+  - APIs are functioning correctly:
+    - `GET /foods`: Success
+    - `GET /food/:id`: Success
 
-/Shop route: Food list is not appearing on Vercel or network address, but it works on localhost:3000.
+## Tech Stack
 
-In /Shop/:[id], some features like color-changing ratings, counters, and alert buttons are not functioning due to unknown glitch
+- **Framework**: Next.js
+- **CMS**: Sanity
+- **API**: Hackathon-provided API
+- **UI Library**: Shadcn
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
 
-APIs are functioning correctly:
+## Deployment Process
 
-GET /foods: Success
+### Steps for Deployment
 
-GET /food/:id: Success
+1. **Build the project**:
 
-Tech Stack
+   ```bash
+   npm run build
+   npm run start
+   npm run lint
+   ```
 
-Framework: Next.js
+2. **Push code to GitHub**:
 
-CMS: Sanity
+   ```bash
+   git add .
+   git commit -m "your message"
+   git push -u origin main
+   ```
 
-API: Hackathon-provided API
+3. **Deploy to Vercel**:
 
-UI Library: Shadcn
+   - Log in to your [Vercel](https://vercel.com/) account.
+   - Import the GitHub repository for the project.
+   - Start the deployment process.
 
-Styling: Tailwind CSS
+4. **Fix Environment Variables**:
 
-Icons: React Icons
+   - Navigate to the project dashboard in Vercel.
+   - Go to `Settings > Environment Variables`.
+   - Upload the `.env.local` file.
 
-Deployment Process
+5. **Redeploy the project**:
 
-Steps for Deployment
+   - Go to the project dashboard > Deployment section.
+   - On the latest deployment, click the `...` menu.
+   - Select "Redeploy" and confirm.
 
-Build the project:
+6. **Successful Deployment**: Once redeployed, the project should work as expected.
 
-npm run build
-npm run start
-npm run lint
+## Issues and Workarounds
 
-Push code to GitHub:
+- **Experimental API Warning**:
+  The build log includes the following warning:
 
-git add .
-git commit -m "your message"
-git push -u origin main
+  ```
+  This is an experimental API version, which will change without warning and may have serious bugs.
+  ```
 
-Deploy to Vercel:
+  - **Solution**: Ensure the API version is compatible with the current dependencies and frameworks being used. Check the API documentation for updates or stable versions.
 
-Log in to your Vercel account.
+- **Route and Dynamic Features Glitch**:
 
-Import the GitHub repository for the project.
+  - `/Shop/:id` route not functioning as expected on Vercel.
+  - Dynamic features like rating color changes, counters, and alert buttons are not responsive.
+  - **Solution**: Debug these features locally and ensure compatibility with the production environment. Use logging or debugging tools to identify the root cause.
 
-Start the deployment process.
-
-Fix Environment Variables:
-
-Navigate to the project dashboard in Vercel.
-
-Go to Settings > Environment Variables.
-
-Upload the .env.local file.
-
-Redeploy the project:
-
-Go to the project dashboard > Deployment section.
-
-On the latest deployment, click the ... menu.
-
-Select "Redeploy" and confirm.
-
-Successful Deployment: Once redeployed, the project should work as expected.
-
-Issues and Workarounds
-
-Experimental API Warning:
-The build log includes the following warning:
-
-This is an experimental API version, which will change without warning and may have serious bugs.
-
-Solution: Ensure the API version is compatible with the current dependencies and frameworks being used. Check the API documentation for updates or stable versions.
-
-Route and Dynamic Features Glitch:
-
-/Shop/:id route not functioning as expected on Vercel.
-
-Dynamic features like rating color changes, counters, and alert buttons are not responsive.
-
-Solution: Debug these features locally and ensure compatibility with the production environment. Use logging or debugging tools to identify the root cause.
-
-Contact
+## Contact
 
 If you have any questions or suggestions, feel free to contact me:
 
-Email: fatima.zohra10122007@gmail.com
+- **Email**: [fatima.zohra10122007@gmail.com](mailto\:fatima.zohra10122007@gmail.com)
 
