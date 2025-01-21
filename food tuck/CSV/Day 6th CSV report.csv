@@ -1,0 +1,4 @@
+Test Case ID     ,Description,Steps, Expected Result,Actual Result,Status,Remarks
+TC 0001,Product List,go to /Shop section > see list,Product list appear,did not appear,FAIL,it is appering in localhost but not in vercel or network address only problem is with /Shop route
+TC 0002,Cart functionality,skipped,functional,skipped,skipped,was fail to create one
+TC 0003,responsive,open inspection mode > change dyamentions,gracefull responsive,gracefull responsive,passed,gracefull responsive user friendly
