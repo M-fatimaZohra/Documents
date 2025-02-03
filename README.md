@@ -6,9 +6,9 @@ A Q-commerce food website that allows users to browse and order food. The projec
 
 ## Current Status
 
-- **Under Construction**: The project is experiencing the following issues:
-  - `/Shop` route: Food list is not appearing on Vercel or network address, but it works on `localhost:3000`.
-  - In /Shop/:[id], some features like color-changing ratings, counters, and alert buttons are not functioning due to unknown glitch
+- **Under Construction**: The project is still in construction
+
+Going to add "Add to cart" and other functions soon 
   - APIs are functioning correctly:
     - `GET /foods`: Success
     - `GET /food/:id`: Success
