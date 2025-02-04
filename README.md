@@ -12,6 +12,7 @@ Going to add "Add to cart" and other functions soon
   - APIs are functioning correctly:
     - `GET /foods`: Success
     - `GET /food/:id`: Success
+    - `GET /chef`: Success
 
 ## Tech Stack
 
@@ -62,22 +63,6 @@ Going to add "Add to cart" and other functions soon
 
 6. **Successful Deployment**: Once redeployed, the project should work as expected.
 
-## Issues and Workarounds
-
-- **Experimental API Warning**:
-  The build log includes the following warning:
-
-  ```
-  This is an experimental API version, which will change without warning and may have serious bugs.
-  ```
-
-  - **Solution**: Ensure the API version is compatible with the current dependencies and frameworks being used. Check the API documentation for updates or stable versions.
-
-- **Route and Dynamic Features Glitch**:
-
-  - `/Shop/:id` route not functioning as expected on Vercel.
-  - Dynamic features like rating color changes, counters, and alert buttons are not responsive.
-  - **Solution**: Debug these features locally and ensure compatibility with the production environment. Use logging or debugging tools to identify the root cause.
 
 ## Contact
 
