@@ -1,8 +1,9 @@
 # Q-Commerce Food Website - Food Tuck
 
+# **[Food Truck 🚚](https://food-truck-ruddy.vercel.app/)**  
 ## Project Overview
 
-A Q-commerce food website that allows users to browse and order food. The project is currently under construction due to some glitches. It includes features such as food listings, dynamic interactions, and API integration.
+A Q-commerce food website that allows users to browse and order food. The project is currently under construction due to some development
 
 ## Current Status
 
